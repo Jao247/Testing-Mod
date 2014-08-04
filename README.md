@@ -5,6 +5,10 @@ Using the "Let's Mod Reboot" series by Pahimar to teach me modding
 
 Changelog:
 
+ver 0.0.002c
+- First Block Added
+- Block Structure
+
 ver 0.0.002b
 - First Item added
 - Item Class
