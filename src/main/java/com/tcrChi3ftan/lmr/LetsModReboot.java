@@ -1,6 +1,7 @@
 package com.tcrChi3ftan.lmr;
 
 import com.tcrChi3ftan.lmr.handler.ConfigHandler;
+import com.tcrChi3ftan.lmr.init.ModItems;
 import com.tcrChi3ftan.lmr.proxy.IProxy;
 import com.tcrChi3ftan.lmr.reference.Reference;
 import cpw.mods.fml.common.FMLCommonHandler;
@@ -24,6 +25,8 @@ public class LetsModReboot
     {
         ConfigHandler.init(e.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandler());
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
